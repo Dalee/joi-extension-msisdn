@@ -1,5 +1,7 @@
-import Joi from 'joi';
-import { clean } from 'msisdn-formatter';
+'use strict';
+
+const Joi = require('joi');
+const clean = require('msisdn-formatter').clean;
 
 /**
  * Extension name
@@ -13,7 +15,7 @@ const EXTENSION = 'msisdn';
  *
  * @type {object}
  */
-export default {
+module.exports = {
     base: Joi.string(),
     name: EXTENSION,
     language: {

@@ -37,7 +37,7 @@ export default [
         config: {
             validate: {
                 query: Joi.object({
-                    msisdn: Joi.extend(JoiMsisdn).msisdn().valid()
+                    msisdn: Joi.extend(JoiMsisdnExt).msisdn().valid()
                 })
             },
             description: 'Do something that requires valid msisdn',
