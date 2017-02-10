@@ -31,14 +31,14 @@
   ],
   "devDependencies": {
     "chai": "^3.5.0",
-    "eslint": "^2.7.0",
-    "eslint-config-dalee": "^0.1.0",
+    "eslint": "^3.15.0",
+    "eslint-config-dalee": "^0.1.6",
     "istanbul": "^0.4.5",
-    "mocha": "^2.5.3",
+    "mocha": "^3.2.0",
     "npm-check-updates": "^2.10.2"
   },
   "dependencies": {
-    "joi": "^9.0.4",
+    "joi": "^10.2.2",
     "msisdn-formatter": "^1.0.0"
   }
 }
