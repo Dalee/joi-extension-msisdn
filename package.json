@@ -5,12 +5,8 @@
   "author": "Dalee IA <dev@dalee.ru>",
   "license": "MIT",
   "main": "./src/index.js",
-  "scripts": {
-    "lint": "./node_modules/.bin/eslint src/",
-    "test": "npm run lint && ./node_modules/.bin/mocha"
-  },
   "engines": {
-    "node": ">=4.4.7"
+    "node": ">= 6.9.2"
   },
   "repository": {
     "type": "git",
@@ -34,13 +30,15 @@
     }
   ],
   "devDependencies": {
-    "eslint": "^2.7.0",
-    "eslint-config-dalee": "^0.1.0",
-    "mocha": "^2.5.3",
-    "chai": "^3.5.0"
+    "chai": "^3.5.0",
+    "eslint": "^3.15.0",
+    "eslint-config-dalee": "^0.1.6",
+    "istanbul": "^0.4.5",
+    "mocha": "^3.2.0",
+    "npm-check-updates": "^2.10.2"
   },
   "dependencies": {
-    "joi": "^9.0.4",
+    "joi": "^10.2.2",
     "msisdn-formatter": "^1.0.0"
   }
 }
