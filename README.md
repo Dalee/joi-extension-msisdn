@@ -1,13 +1,15 @@
 # joi-extension-msisdn
 
 [![Build Status](https://travis-ci.org/Dalee/joi-extension-msisdn.svg?branch=master)](https://travis-ci.org/Dalee/joi-extension-msisdn)
+[![codecov](https://codecov.io/gh/Dalee/joi-extension-msisdn/branch/master/graph/badge.svg)](https://codecov.io/gh/Dalee/joi-extension-msisdn)
+[![Dependencies](https://david-dm.org/Dalee/joi-extension-msisdn.svg)](https://david-dm.org/Dalee/joi-extension-msisdn)
 
 Joi extension to validate russian msisdns.
 
 ## Install
 
 ```
-$ npm install joi-extension-msisdn
+$ npm install joi-extension-msisdn --save
 ```
 
 ## Usage
